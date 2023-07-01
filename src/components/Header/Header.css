@@ -1,0 +1,6 @@
+.header{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)) ,url(../../../public/assets/img/istockphoto-1253505358-612x612-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}

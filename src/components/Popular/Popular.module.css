@@ -1,0 +1,36 @@
+/*font-family: 'Marcellus', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
+h3{
+    font-family: 'Marcellus', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 54.9px;
+   
+ }
+
+.overlay{
+    background-color: rgba(245, 241, 241, 0.459);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleY(0);
+    
+ }
+ .overlaylink{
+    font-family:'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13.8px;
+    letter-spacing: 2px;
+    background-color: #be9c79;
+ }
+ .movie:hover .overlay{
+    transform: scaleY(1);
+    cursor:pointer;
+ }
+ .overlay Link:hover{
+    background-color: rgba(38, 38, 38);
+ }
